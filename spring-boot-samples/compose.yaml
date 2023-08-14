@@ -1,1 +1,11 @@
+version: '3.1'
 services:
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+      - "8001:8001"
+#images:
+#  spring-boot-samples: v1
+#  ports:
+#    - "10088:10088"
